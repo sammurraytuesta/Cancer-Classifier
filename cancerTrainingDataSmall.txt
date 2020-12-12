@@ -1,0 +1,34 @@
+#attribute ID 
+#attribute radius_mean 
+#attribute texture_mean 
+#attribute perimeter_mean 
+#attribute area_mean 
+#attribute smoothness_mean 
+#attribute compactness_mean 
+#attribute concavity_mean 
+#attribute concave_mean 
+#attribute symmetry_mean  
+#attribute fractal_mean 
+#attribute radius_se 
+#attribute texture_se 
+#attribute perimeter_se 
+#attribute area_se 
+#attribute smoothness_se 
+#attribute compactness_se 
+#attribute concavity_se 
+#attribute concave_se 
+#attribute symmetry_se  
+#attribute fractal_se 
+#attribute radius_worst 
+#attribute texture_worst 
+#attribute perimeter_worst 
+#attribute area_worst 
+#attribute smoothness_worst 
+#attribute compactness_worst 
+#attribute concavity_mean 
+#attribute concave_worst 
+#attribute symmetry_worst  
+#attribute fractal_worst 
+#attribute class {M, B}
+897604,12.99,14.23,84.08,514.3,0.09462,0.09965,0.03738,0.02098,0.1652,0.07238,0.1814,0.6412,0.9219,14.41,0.005231,0.02305,0.03113,0.007315,0.01639,0.005701,13.72,16.91,87.38,576,0.1142,0.1975,0.145,0.0585,0.2432,0.1009,B
+897630,18.77,21.43,122.9,1092,0.09116,0.1402,0.106,0.0609,0.1953,0.06083,0.6422,1.53,4.369,88.25,0.007548,0.03897,0.03914,0.01816,0.02168,0.004445,24.54,34.37,161.1,1873,0.1498,0.4827,0.4634,0.2048,0.3679,0.0987,M
