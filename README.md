@@ -3,6 +3,14 @@ Parses data files containing hundreds of patient records to implement a machine 
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![python-version](https://img.shields.io/badge/Python-3.7-blue.svg)](https://shields.io/) [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg) [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/sammurraytuesta)
 
+## Machine Learning Framework 
+The algorithm for CancerClassifier uses previously observed data to make predictions about new data, this can also be referred to as a machine learning framework where two phases occur to correctly compute or predict the malignancy of a tumor. This rule-based classifier is split into two phases: Training and Testing. 
+
+## Training
+In the training phase, the program will “learn” the average value each attribute (e.g. area, smoothness, etc.) among the malignant tumors as well as “learn” the average value of each attribute among benign tumors. It will then compute the midpoint for each attribute and add it to a collection. This collection of midpoints, one for each attribute, is our classifier.
+
+The following displays the resulting data as computed by the training phase:
+
 ```
 Reading in training data...
 Done reading training data.
@@ -22,12 +30,15 @@ Classifier cutoffs:
     symmetry: 0.18456510989010982
     fractal: 0.06286657967032966
 Done training classifier.
+```
+The "cutoffs" displayed above are the midpoints computed during the training phase. These "cutoffs" will determine whether a tumor is benign or malignant.
 
+## Testing 
+```
 Making predictions and reporting accuracy
 Classifier accuracy: 92.20779220779221
 Done classifying.
 ```
-
 ```
 Enter a patient ID to see classification details: 9010258
 ```
