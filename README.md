@@ -1,4 +1,4 @@
-# CancerClassifier
+# Cancer Classifier
 Parses data files containing hundreds of patient records to implement a machine learning framework and develop a rule-based classifier that can be used to predict the malignancy of a tumor.
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![python-version](https://img.shields.io/badge/Python-3.7-blue.svg)](https://shields.io/) [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg) [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/sammurraytuesta)
@@ -19,7 +19,7 @@ Parses data files containing hundreds of patient records to implement a machine 
 </details>
 
 ## Machine Learning Framework 
-The algorithm for CancerClassifier uses previously observed data to make predictions about new data, this can also be referred to as a machine learning framework where two phases occur to correctly compute or predict the malignancy of a tumor. This rule-based classifier is split into two phases: Training and Testing. 
+The algorithm for Cancer Classifier uses previously observed data to make predictions about new data, this can also be referred to as a machine learning framework where two phases occur to correctly compute or predict the malignancy of a tumor. This rule-based classifier is split into two phases: Training and Testing. 
 
 ### Training
 In the training phase, the program will “learn” the average value each attribute (e.g. area, smoothness, etc.) among the malignant tumors as well as “learn” the average value of each attribute among benign tumors. It will then compute the midpoint for each attribute and add it to a collection. This collection of midpoints, one for each attribute, is our classifier.
@@ -118,4 +118,4 @@ Enter a patient ID to see classification details: quit
 ```
 
 ## Thank You!
-Thank you for reading about CancerClassifier!
+Thank you for reading about Cancer Classifier!
